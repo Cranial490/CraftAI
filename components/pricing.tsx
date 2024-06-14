@@ -17,9 +17,10 @@ export default function Pricing() {
         <div className="pt-10 pb-12 md:pb-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk mb-4">Let's find the right plan for you business</h2>
+            <h2 className="h2 font-hkgrotesk mb-4">Your Data, Your Privacy: Fully Protected with Vortexe</h2>
             <p className="text-xl text-slate-500">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+            We prioritize your privacy. We do not track, sell, or share your data. 
+            Your information is fully protected, ensuring that your work and personal data remains secure and confidential.
             </p>
           </div>
           {/* Pricing tables */}

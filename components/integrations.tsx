@@ -15,7 +15,7 @@ export default function Integrations() {
         <div className="py-12 md:py-20 border-t border-slate-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-hkgrotesk">An ecosystem of integrations</h2>
+            <h2 className="h2 font-hkgrotesk">An ecosystem of AI tools</h2>
           </div>
           {/* Logo animation */}
           <div className="relative flex flex-col items-center p-16">

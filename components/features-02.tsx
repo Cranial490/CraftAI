@@ -45,7 +45,7 @@ export default function Features02() {
                         }`}
                       onClick={() => setCategory('2')}
                     >
-                      Freelancers
+                      Artists
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '3' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
@@ -59,17 +59,20 @@ export default function Features02() {
                 {/* Content */}
                 <div>
                   <div className={`${category !== '1' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Kickstart your project with these tools</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Easy to use AI</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                    Say goodbye to the hassle of navigating complex AI chatboxes. With just a click, you can achieve quick and reliable results. 
+                    Our intuitive interface makes powerful AI tools accessible without the need for extensive learning. 
+                    Now, you can effortlessly harness the AI capabilities you've always wanted, all within a familiar and user-friendly platform.
                     </div>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Tech tools to kickstart freelance life</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Your time is valuable</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                    Eliminate artist's block and enhance your workflow with our all-in-one AI tools. 
+                    Store and manage your art concepts in one convenient workspace, allowing AI to iterate and expand on your ideas. 
+                    Whether you're creating mood boards or design documentations, our platform helps you optimize 
+                    your workflow, reduce administrative tasks, and focus on what you do best—creating stunning visual artwork.
                     </div>
                   </div>
                   <div className={`${category !== '3' && 'hidden'}`}>
