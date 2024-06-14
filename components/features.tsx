@@ -56,7 +56,7 @@ export default function Features() {
             <h2 className="h2 font-hkgrotesk mb-4">Many tools to express your creativity</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+              Access AI tools within a secure, unified workspace with a familiar interface.
               </p>
             </div>
           </div>
@@ -65,64 +65,86 @@ export default function Features() {
           <div className="carousel swiper-container">
             <div className="swiper-wrapper">
               {/* Carousel items */}
+                  {/* Workspaces */}
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon01} width={56} height={56} alt="Icon 01" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Collaboration</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Workspaces</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Users can upload, create, and let the AI tools work on the files all in one place. 
+                    
                   </div>
                 </div>
                 <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
+                  {/* <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
                     Learn More{' '}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
+                    {/* Familiar Interface */}
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon02} width={56} height={56} alt="Icon 02" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Experiences</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Familiar Interface</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                  Get more done in a workspace that supports all types, from PDF to MP4, for upload and download.
                   </div>
                 </div>
                 <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
+                  {/* <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
                     Learn More{' '}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
+                    {/* Scalability */}  
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon03} width={56} height={56} alt="Icon 03" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Animation</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Scalability</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                  The dynamic workspaces will allow for seamless organization throughout the lifecycle of your project.
                   </div>
                 </div>
                 <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
+                  {/* <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
                     Learn More{' '}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
+                    {/* Organization */}
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon04} width={56} height={56} alt="Icon 04" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Modeling</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Organization</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                  No more scrolling through hundreds of chats.
+                  Allow the power of AI to organize various files within your workspace.
                   </div>
                 </div>
                 <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
+                  {/* <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
                     Learn More{' '}
                     <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
+                  </a> */}
+                </div>
+              </div>
+              {/* Productivity */}
+              <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
+                <Image className="mb-3" src={FeaturesIcon04} width={56} height={56} alt="Icon 04" />
+                <div className="grow">
+                  <div className="font-hkgrotesk font-bold text-xl">Productivity</div>
+                  <div className="text-slate-500 mb-3">
+                  Let AI do the work for you, no more time consuming repetitive tasks.
+                  </div>
+                </div>
+                <div className="text-right">
+                  {/* <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
+                    Learn More{' '}
+                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  </a> */}
                 </div>
               </div>
             </div>

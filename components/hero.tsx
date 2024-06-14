@@ -32,19 +32,19 @@ export default function Hero() {
                   className="w-full text-white bg-indigo-500 shadow-sm btn hover:bg-indigo-600 group"
                   href="/signup"
                 >
-                  Get Started Free{" "}
+                  Join Waitlist{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
                 </Link>
               </div>
               <div>
-                <a
+                {/* <a
                   className="w-full shadow-sm btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
                   href="#0"
                 >
                   Read Docs
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
