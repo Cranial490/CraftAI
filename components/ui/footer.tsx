@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           </div>
           {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Products</h6>
             <ul className="text-sm space-y-2">
               <li>
@@ -57,9 +57,9 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Resources</h6>
             <ul className="text-sm space-y-2">
               <li>
@@ -83,9 +83,9 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Projects</h6>
             <ul className="text-sm space-y-2">
               <li>
@@ -109,9 +109,9 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-xs text-slate-200 font-semibold uppercase underline mb-3">Company</h6>
             <ul className="text-sm space-y-2">
               <li>
@@ -130,12 +130,12 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between pb-4 md:pb-8">
           {/* Social links */}
-          <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+          {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
                 className="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out"
@@ -169,7 +169,7 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-          </ul>
+          </ul> */}
           {/* Links */}
           <div className="text-sm text-slate-600">
             <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Terms</a> · <a className="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Privacy Policy</a>

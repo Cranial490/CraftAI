@@ -59,7 +59,7 @@ export default function Features02() {
                 {/* Content */}
                 <div>
                   <div className={`${category !== '1' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Easy to use AI</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Easy to Use AI</h3>
                     <div className="text-lg text-slate-500">
                     Say goodbye to the hassle of navigating complex AI chatboxes. With just a click, you can achieve quick and reliable results. 
                     Our intuitive interface makes powerful AI tools accessible without the need for extensive learning. 
@@ -67,7 +67,7 @@ export default function Features02() {
                     </div>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Your time is valuable</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Your Time is Valuable</h3>
                     <div className="text-lg text-slate-500">
                     Eliminate artist's block and enhance your workflow with our all-in-one AI tools. 
                     Store and manage your art concepts in one convenient workspace, allowing AI to iterate and expand on your ideas. 
@@ -76,10 +76,12 @@ export default function Features02() {
                     </div>
                   </div>
                   <div className={`${category !== '3' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Share your plan and clarify project risk</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Streamline Operations</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                    Empower your company with essential AI tools that streamline your operations. 
+                    Build a customized pipeline to boost production speed and eliminate redundant tasks, 
+                    maximizing efficiency and productivity. Experience seamless integration and watch your 
+                    business achieve new levels of success with our cutting-edge solutions.
                     </div>
                   </div>
                 </div>

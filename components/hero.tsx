@@ -11,16 +11,15 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="mb-6 h1 font-hkgrotesk" data-aos="fade-up">
-              Craft your own AI Pipeline
+              AI for Everyone
             </h1>
             <p
-              className="mb-10 text-xl text-slate-500"
+              className="px-14 text-xl text-slate-500 mb-10 "
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              A familiar and user friendly interface to build your own AI
-              pipeline and simplify performing everyday tasks using the latest
-              AI models
+              A familiar and user friendly workspace, making the latest
+              AI tools accessible for everyday users.
             </p>
             <div
               className="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"

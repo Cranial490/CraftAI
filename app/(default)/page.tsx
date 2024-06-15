@@ -20,7 +20,7 @@ export default function Home() {
       <Features />
       <Features02 />
       <Integrations />
-      <Pricing />
+      {/* <Pricing /> */}
       <Faqs />
       <Cta />
     </>
