@@ -11,16 +11,15 @@ export default function Hero() {
           {/* Hero content */}
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="mb-6 h1 font-hkgrotesk" data-aos="fade-up">
-              Craft your own AI Pipeline
+              AI for Everyone
             </h1>
             <p
-              className="mb-10 text-xl text-slate-500"
+              className="px-14 text-xl text-slate-500 mb-10 "
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              A familiar and user friendly interface to build your own AI
-              pipeline and simplify performing everyday tasks using the latest
-              AI models
+              A familiar and user friendly workspace, making the latest
+              AI tools accessible for everyday users.
             </p>
             <div
               className="max-w-xs mx-auto space-y-4 sm:max-w-none sm:inline-flex sm:justify-center sm:space-y-0 sm:space-x-4"
@@ -32,19 +31,19 @@ export default function Hero() {
                   className="w-full text-white bg-indigo-500 shadow-sm btn hover:bg-indigo-600 group"
                   href="/signup"
                 >
-                  Get Started Free{" "}
+                  Join Waitlist{" "}
                   <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
                 </Link>
               </div>
               <div>
-                <a
+                {/* <a
                   className="w-full shadow-sm btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600"
                   href="#0"
                 >
                   Read Docs
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

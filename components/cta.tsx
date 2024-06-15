@@ -17,8 +17,8 @@ export default function Cta() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
-            <h2 className="h2 font-hkgrotesk">Join the most flexible user-centric platform for teams</h2>
+          <div className="max-w-1xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
+            <h2 className="h2 font-hkgrotesk">Join the most flexible user-centric platform for everyone</h2>
           </div>
           {/* Buttons */}
           <div className="text-center">
@@ -32,9 +32,9 @@ export default function Cta() {
                 </Link>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
-                <a className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm" href="#0">
+                {/* <a className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm" href="#0">
                   Read Docs
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
